@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+ 
+    height: 550px;
+    padding: 10px;
+}
+
+.content{
+ 
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-container{
+ 
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+.text-content{
+    width: 60%;
+}
+
+.title{
+    text-align: center;
+}
+
+.text-content .pro-det{
+    padding: 10px;
+}
+
+.small-shirts{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.price{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.text{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px;
+    width: 92%;
+}
+
+.bottom-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-container .bottom-up .color strong{
+    margin-right: 95px;
+}
+.bottom-container .bottom-up .avail strong{
+    margin-right: 55px;
+}
+.bottom-container .bottom-down .size strong{
+    margin-right:50px ;
+}
+.bottom-container .bottom-down .size label{
+    margin-right:15px ;
+}
+.bottom-container .bottom-down .quantity strong{
+margin-right: 70px;
+}
+
+.buy-now{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.add-to-cart{
+    background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.star{
+    padding-left: 10px;
+}
